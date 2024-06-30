@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(330, 100%, 98%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 4em 0;
+    max-width: 800px;
+    background: hsl(0, 0%, 100%);
+    height: auto;
+    padding: 1.4em 2em;
+    border-radius: .6em;
+}
+
+.container .img {
+    width: 100%;
+    height: 270px;
+}
+
+.container .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: .6em .6em 0 0;
+}
+
+.container .recipe .details {
+    padding: 1.2em 0 1em;
+}
+
+.details h2 {
+    color: hsl(24, 5%, 18%);
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.details p {
+    color: hsl(24, 5%, 18%);   
+    font-size: 1em;
+    font-weight: 400;
+    padding: 1.1em 0;
+}
+
+.recipe .preptime {
+    background: hsl(330, 100%, 98%);
+    padding: 1.2em 1.5em;
+    border-radius: .6em;
+}
+
+.preptime h2 {
+    color: hsl(332, 51%, 32%);
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: .5em 0 .7em;
+}
+
+.preptime ul {
+    line-height: 2.1;
+    padding: 0 1.7em;
+}
+
+.preptime ul li {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);   
+    padding-left: 1em;
+}
+
+.preptime ul li span {
+    color: hsl(24, 5%, 18%);   
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.preptime ul li::marker {
+    color: hsl(332, 51%, 32%);   
+    font-size: .9em;
+}
+
+.recipe .ingre {
+    padding: 1.4em 0;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+
+.ingre h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: .4em;
+}
+
+.ingre ul {
+    list-style: square;
+    padding: 0 1.5em;
+    line-height: 2.1;
+}
+
+.ingre ul li {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: hsl(24, 5%, 18%);   
+    padding-left: 1em;
+}
+
+.ingre ul li::marker {
+    color: hsl(332, 51%, 32%);   
+    font-size: .9em;
+}
+
+.recipe .instr {
+    padding: 1.5em 0;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+
+.recipe .instr h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: .4em;
+}
+
+.recipe .instr ol {
+    padding: 0 1.4em;
+    line-height: 2.1;
+}
+
+.instr ol li {
+    color: hsl(24, 5%, 18%);   
+    font-size: .94em;
+    font-weight: 400;
+    padding-left: 1.2em;
+}
+
+.instr ol li span {
+    color: hsl(24, 5%, 18%);   
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
+.instr ol li::marker {
+    color: hsl(332, 51%, 32%);   
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.recipe .nutri {
+    padding: 1.4em 0;
+}
+
+.nutri h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: .4em;
+}
+
+.nutri h3 {
+    color: hsl(30, 10%, 34%);
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.nutri .nutrip {
+    color: hsl(30, 10%, 34%);
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 1.2em 11em 1.2em 2em;
+    text-transform: capitalize;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nutri #border {
+    border: none;
+}
+
+.nutri .nutrip span {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    
+}
+
+.nutri .nutrip .g {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
